@@ -9,13 +9,13 @@ n = 1000
 data = generate_sensor_data(n,)
 filter_data = apply_amp_filter(data, 0.8)
 
-def mean_filter():
+def mean_filter(d,iterations,width):
     """
     Apply a mean filter to an iterable, returning a list.
     """
     for i in range(n):
 
-    return mean_filter
+        return mean_filter()
 
 
 filename = "filter.csv"
