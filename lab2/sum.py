@@ -6,7 +6,6 @@ def sum_i(*args):
         total += i
     return total, print(total)
 
-sum_i(1,2,3)
 
 s = sum_i(1)
 
@@ -20,4 +19,3 @@ def sum_r(*args):
 
 
 s = sum_r(1)
-print(s)
