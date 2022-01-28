@@ -18,7 +18,6 @@ def sum_r(*args):
        total = args[0] + sum_r(args[:1])
    return total
 
-print(sum_r([1,2,3,4,5,6]))
 
 s = sum_r(1)
 print(s)
