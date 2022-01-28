@@ -11,16 +11,6 @@ sum_i(1,2,3)
 s = sum_i(1)
 
 
-"""
-def listsum(numList):
-   if len(numList) == 1:
-        return numList[0]
-   else:
-        return numList[0] + listsum(numList[1:])
-print(listsum([1,3,5,7,9]))
-"""
-
-
 def sum_r(*args):
    if len(args) == 1:
         return args[0]
@@ -30,5 +20,5 @@ def sum_r(*args):
 
 print(sum_r([1,2,3,4,5,6]))
 
-s = sum_r[1]
+s = sum_r(1)
 print(s)
