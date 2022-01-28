@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 
+#from random import gauss
+
+
 def apply_amp_filter(data, cutoff=0.8):
     """
     Apply an amplitude filter to an iterable, returning a list.
