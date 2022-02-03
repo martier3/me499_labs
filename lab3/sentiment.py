@@ -3,6 +3,8 @@
 import re
 
 txt_dictionary = {}
+output_string = ()
+
 
 def load_score_dict(text_file = 'sentiment.txt') :
     global txt_dictionary
@@ -35,3 +37,11 @@ def get_words(string_input) :
 # get_words(my_sentence)
 
 load_score_dict('test.txt')
+
+def score_sentence(sentence, scoring_dictionary):
+    global output_string
+    get_words(sentence)
+    load_score_dict(scoring_dictionary)
+    return txt_dictionary[output_string], print(txt_dictionary[output_string])
+
+score_sentence('test', 'test.txt')
