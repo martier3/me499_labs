@@ -6,13 +6,10 @@ txt_dictionary = {}
 
 def load_score_dict(text_file = 'sentiment.txt') :
     global txt_dictionary
-    open_file = open(text_file, 'r')
-    file_lines = open_file.readlines()
-    open_file.close()
-    for line in file_lines:
-        if line.strip('\n') != '':
-            print(line)
-        txt_dictionary = {line}
+    open_file = open(text_file)
+    for line in open_file:
+        (key, value) = line.split()
+        txt_dictionary[key] = float(value)
     return txt_dictionary, print(txt_dictionary)
 
 
@@ -40,5 +37,5 @@ get_words() function test
     get_words(my_sentence)
 """
 
-load_score_dict()
+load_score_dict('test.txt')
 #get_words(txt_dictionary)
