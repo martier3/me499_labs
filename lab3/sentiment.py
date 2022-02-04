@@ -37,7 +37,7 @@ def score_sentence(string_input, dictionary_input = 'sentiment.txt'):
         if word not in dictionary:
             output_string.remove(word)
         total += dictionary[word]
-    return total, print(total)
+    return float(total)
 
 
 def open_string_file(txt_file):
