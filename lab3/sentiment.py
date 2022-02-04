@@ -13,7 +13,7 @@ def load_score_dict(text_file = 'sentiment.txt') :
             if line[0] != '#' and line[0] != '\n':
                 key, value = line.split()
                 txt_dictionary[key] = float(value)
-        return txt_dictionary, print(txt_dictionary)
+        return txt_dictionary
 
 
 """
@@ -35,15 +35,21 @@ def get_words(string_input) :
     return output_string, print(output_string)
 
 
-# my_sentence = "Grocery list:    3 boxes Land-o-lakes butter, Aunt Jemima's butter pancake mix"
-# get_words(my_sentence)
-
-load_score_dict()
-
-def score_sentence(sentence, scoring_dictionary):
+def score_sentence(string_input, dictionary_input):
     global output_string
-    get_words(sentence)
-    load_score_dict(scoring_dictionary)
-    return txt_dictionary[output_string], print(txt_dictionary[output_string])
+    global txt_dictionary
+    get_words(string_input)
+    total = 0
+    for word in output_string:
+        total += dictionary_input[word]
+        return total, print(total)
 
-# core_sentence('test', 'test.txt')
+
+#my_sentence = "Grocery list:    3 boxes Land-o-lakes butter, Aunt Jemima's butter pancake mix"
+my_sentence = 'welcome, welcome to my house!'
+
+get_words(my_sentence)
+scores = {'welcome':0.5,  'house':-0.25}
+
+score_sentence('welcome, welcome to my house!', scores)
+#inal_score = score_sentence(my_sentence, scores)
