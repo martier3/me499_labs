@@ -2,9 +2,9 @@
 
 import re
 
+
 txt_dictionary = {}
 output_string = []
-
 
 def load_score_dict(text_file = 'sentiment.txt') :
     global txt_dictionary
@@ -45,7 +45,7 @@ def score_sentence(string_input, dictionary_input):
         if word not in dictionary_input:
             output_string.remove(word)
         total += dictionary_input[word]
-    return total, print(total)
+    return float(total), print(total)
 
 """
 #my_sentence = "Grocery list:    3 boxes Land-o-lakes butter, Aunt Jemima's butter pancake mix"
@@ -66,12 +66,4 @@ def open_string_file(txt_file):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) < 2:
-        print('Usage: {0} input1 input2 etc'.format(basename(sys.argv[0])))
-        exit(1)
-
-    print("Got {0} arguments to command {1}".format(len(sys.argv) - 1,basename(sys.argv[0])))
-    for my_input in sys.argv[1:]:
-        print("Got: argument {0}".format(my_input))
-
-    print()
+    main()
