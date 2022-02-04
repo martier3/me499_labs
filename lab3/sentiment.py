@@ -27,7 +27,7 @@ def get_words(string_input):
     return output_string
 
 
-def score_sentence(string_input, dictionary_input):
+def score_sentence(string_input, dictionary_input = 'sentiment.txt'):
     global output_string
     global dictionary
     get_words(string_input)
@@ -36,7 +36,7 @@ def score_sentence(string_input, dictionary_input):
     for word in output_string:
         if word not in dictionary:
             output_string.remove(word)
-            total += dictionary[word]
+        total += dictionary[word]
     return total, print(total)
 
 
