@@ -1,4 +1,4 @@
-#!/usr.bin.env python
+#!/usr.bin.env python3
 
 import re
 
@@ -30,9 +30,10 @@ def get_words(string_input) :
         # how to use re in python ^^^
         # https://datagy.io/python-remove-punctuation-from-string/
     lower_case_string = remove_punctuation_string.lower()
-    output_string = lower_case_string.split()
+    new_string = lower_case_string.split()
+    output_string = sorted(set(new_string), key=lambda x: new_string.index(x))
 
-    return output_string, print(output_string)
+    return output_string
 
 
 def score_sentence(string_input, dictionary_input):
@@ -41,15 +42,36 @@ def score_sentence(string_input, dictionary_input):
     get_words(string_input)
     total = 0
     for word in output_string:
+        if word not in dictionary_input:
+            output_string.remove(word)
         total += dictionary_input[word]
-        return total, print(total)
+    return total, print(total)
 
-
+"""
 #my_sentence = "Grocery list:    3 boxes Land-o-lakes butter, Aunt Jemima's butter pancake mix"
 my_sentence = 'welcome, welcome to my house!'
 
 get_words(my_sentence)
-scores = {'welcome':0.5,  'house':-0.25}
+scores = {'welcome': 0.5,  'house': -0.25}
 
-score_sentence('welcome, welcome to my house!', scores)
+score_sentence('welcome, welcome house!', scores)
 #inal_score = score_sentence(my_sentence, scores)
+"""
+
+def open_string_file(txt_file):
+    file = open(txt_file)
+    import_string = file.read().replace('\n',' ')
+    file.close()
+    return import_string
+
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print('Usage: {0} input1 input2 etc'.format(basename(sys.argv[0])))
+        exit(1)
+
+    print("Got {0} arguments to command {1}".format(len(sys.argv) - 1,basename(sys.argv[0])))
+    for my_input in sys.argv[1:]:
+        print("Got: argument {0}".format(my_input))
+
+    print()
