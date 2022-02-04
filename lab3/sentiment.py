@@ -3,15 +3,16 @@
 import re
 
 txt_dictionary = {}
-output_string = ()
+output_string = []
 
 
 def load_score_dict(text_file = 'sentiment.txt') :
     global txt_dictionary
     with open(text_file) as open_text:
         for line in open_text:
-            key, value = line.split()
-            txt_dictionary[key] = float(value)
+            if line[0] != '#' and line[0] != '\n':
+                key, value = line.split()
+                txt_dictionary[key] = float(value)
         return txt_dictionary, print(txt_dictionary)
 
 
@@ -24,6 +25,7 @@ Test section for load_score_dict() func
 """
 
 def get_words(string_input) :
+    global output_string
     remove_punctuation_string = re.sub(r'[^\w\s]', '', string_input)
         # how to use re in python ^^^
         # https://datagy.io/python-remove-punctuation-from-string/
@@ -36,7 +38,7 @@ def get_words(string_input) :
 # my_sentence = "Grocery list:    3 boxes Land-o-lakes butter, Aunt Jemima's butter pancake mix"
 # get_words(my_sentence)
 
-load_score_dict('test.txt')
+load_score_dict()
 
 def score_sentence(sentence, scoring_dictionary):
     global output_string
@@ -44,4 +46,4 @@ def score_sentence(sentence, scoring_dictionary):
     load_score_dict(scoring_dictionary)
     return txt_dictionary[output_string], print(txt_dictionary[output_string])
 
-score_sentence('test', 'test.txt')
+# core_sentence('test', 'test.txt')
