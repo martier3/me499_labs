@@ -17,10 +17,10 @@ state, t = smd.simulate(x, x_dot, t, dt)
 # Problem 2: Histogram of the gachapon problem
 import random
 
+prize_pool = []
 def simulate_gachapon(n):
-    prize_pool = []
+    global prize_pool
     toy_list = list(range(0, n))
-    print(toy_list)
     while all(item in prize_pool for item in toy_list) is False:
         add_number = random.randrange(0, n)
         prize_pool.append(add_number)
