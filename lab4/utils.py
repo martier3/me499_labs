@@ -19,11 +19,10 @@ import random
 
 def simulate_gachapon(n):
     prize_pool = []
-    toy_list = [0, n-1]
-    if toy_list not in prize_pool:
-        prize_pool.append(random.randrange(0, n-1))
+    toy_list = list(range(0, n))
+    print(toy_list)
+    while all(item in prize_pool for item in toy_list) is False:
+        add_number = random.randrange(0, n)
+        prize_pool.append(add_number)
     else:
-        return prize_pool, print(len(prize_pool)), print(len(toy_list))
-
-
-simulate_gachapon(15)
+        return prize_pool
