@@ -8,5 +8,4 @@ plt.plot(t, state[:,0])
 plt.xlabel('Time')
 plt.ylabel('Displacement')
 plt.title('Time vs Displacement')
-plt.show()
-
+plt.savefig('Problem1.png')
