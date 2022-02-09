@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 
 # Problem 1: Plot sping damper system
-
-import numpy as np
 import matplotlib.pyplot as plt
 from utils import *
 
-plt.plot(state,t)
+plt.plot(t, state[:,0])
+plt.xlabel('Time')
+plt.ylabel('Displacement')
+plt.title('Time vs Displacement')
 plt.show()
+
