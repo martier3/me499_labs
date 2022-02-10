@@ -2,7 +2,6 @@
 
 from utils import *
 import matplotlib.pyplot as plt
-import numpy as np
 
 # Problem 1: Plot sping damper system
 plt.figure(1)
@@ -18,10 +17,16 @@ n = 15
 def bigsim_gachapon(iterations):
     histo_data = []
     for i in range(iterations):
-        new_numbers = simulate_gachapon(n)
-        histo_data = histo_data + new_numbers
-    return histo_data, print(len(histo_data)), print(histo_data)
+        number_of_boxes = simulate_gachapon(n)
+        histo_data.append(number_of_boxes)
+    return histo_data
+
+gachapon_boxes = bigsim_gachapon(1000)
 
 plt.figure(2)
-plt.hist(bigsim_gachapon(1000), n)
+plt.hist(gachapon_boxes, n)
+plt.gca().set_xlim(left=0)
+plt.xlabel('Number of Boxes')
+plt.ylabel('Iterations')
+plt.title('Number of Gachapon Boxes to get All Prizes')
 plt.savefig('Problem2.png')

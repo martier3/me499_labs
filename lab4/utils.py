@@ -28,4 +28,4 @@ def simulate_gachapon(n):
         add_number = np.random.randint(0, n)
         prize_pool.append(add_number)
     else:
-        return prize_pool
+        return len(prize_pool)
