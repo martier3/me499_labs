@@ -27,6 +27,32 @@ plt.figure(2)
 plt.hist(gachapon_boxes, n)
 plt.gca().set_xlim(left=0)
 plt.xlabel('Number of Boxes')
-plt.ylabel('Iterations')
+plt.ylabel('Frequency of Number of Boxes Required')
 plt.title('Number of Gachapon Boxes to get All Prizes')
 plt.savefig('Problem2.png')
+
+# Problem 3: Algorithmic runtimes
+
+from counter import get_element_counts
+import time
+
+n_inputlist = list(range(50, 2550, 50))
+times = []
+lengths = []
+
+for i in range(len(n_inputlist)):
+    n = n_inputlist[i]
+    list_of_numbers = random_list(n)
+    lengths.append(len(list_of_numbers))
+    start_time = time.time()
+    get_element_counts(list_of_numbers)
+    end_time = time.time()
+    function_time = end_time-start_time
+    times.append(function_time)
+
+plt.figure(3)
+plt.scatter(lengths, times)
+plt.xlabel('List Length')
+plt.ylabel('Time (sec)')
+plt.title('Algorithmic Runtimes')
+plt.savefig('Problem3.png')

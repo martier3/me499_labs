@@ -29,3 +29,12 @@ def simulate_gachapon(n):
         prize_pool.append(add_number)
     else:
         return len(prize_pool)
+
+
+# Problem 3: Algorithmic runtimes
+
+def random_list(n):
+    random_numbers = []
+    for i in range(n):
+        random_numbers.append(np.random.randint(0, n))
+    return random_numbers
