@@ -2,10 +2,12 @@
 
 from utils import *
 import matplotlib.pyplot as plt
+from counter import get_element_counts
+import time
 
 # Problem 1: Plot sping damper system
 plt.figure(1)
-plt.plot(t, state[:,0])
+plt.plot(t, state[:, 0])
 plt.xlabel('Time')
 plt.ylabel('Displacement')
 plt.title('Time vs Displacement')
@@ -21,6 +23,7 @@ def bigsim_gachapon(iterations):
         histo_data.append(number_of_boxes)
     return histo_data
 
+
 gachapon_boxes = bigsim_gachapon(1000)
 
 plt.figure(2)
@@ -32,9 +35,6 @@ plt.title('Number of Gachapon Boxes to get All Prizes')
 plt.savefig('Problem2.png')
 
 # Problem 3: Algorithmic runtimes
-
-from counter import get_element_counts
-import time
 
 n_inputlist = list(range(50, 2550, 50))
 times = []

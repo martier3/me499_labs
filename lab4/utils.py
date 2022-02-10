@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+import numpy as np
+
 # Problem 1: Plot spring damper system
 from msd import *
 
@@ -15,8 +17,6 @@ smd = MassSpringDamper(m, k, c)
 state, t = smd.simulate(x, x_dot, t, dt)
 
 # Problem 2: Histogram of the gachapon problem
-
-import numpy as np
 
 np.random.seed()
 
@@ -38,3 +38,4 @@ def random_list(n):
     for i in range(n):
         random_numbers.append(np.random.randint(0, n))
     return random_numbers
+
