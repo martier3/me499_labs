@@ -15,14 +15,17 @@ smd = MassSpringDamper(m, k, c)
 state, t = smd.simulate(x, x_dot, t, dt)
 
 # Problem 2: Histogram of the gachapon problem
-import random
 
-prize_pool = []
+import numpy as np
+
+np.random.seed()
+
 def simulate_gachapon(n):
-    global prize_pool
+
+    prize_pool = []
     toy_list = list(range(0, n))
     while all(item in prize_pool for item in toy_list) is False:
-        add_number = random.randrange(0, n)
+        add_number = np.random.randint(0, n)
         prize_pool.append(add_number)
     else:
         return prize_pool
