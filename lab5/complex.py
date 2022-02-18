@@ -40,15 +40,14 @@ class Complex:
         return self.__mul__(other)
 
     def __truediv__(self, other):
-
         if isinstance(other, (float, int)):
             r = float(other ** 2)
             return Complex((self.re * other +self.im * 0) / r,
                            (self.im * other -self.re * 0) / r)
         else:
             r = float(other.re ** 2 + other.im ** 2)
-            return Complex((self.re * other.re +self.im * other.im) / r,
-                           (self.im * other.re -self.re * other.im) / r)
+            return Complex((self.re * other.re + self.im * other.im) / r,
+                           (self.im * other.re - self.re * other.im) / r)
 
     def __rtruediv__(self, other):
         return self.__truediv__(other)
@@ -61,9 +60,3 @@ class Complex:
         else:
             total = '(%s + %si)' % (self.re, self.im)
             return total
-
-
-a = Complex(1.0, -3.0)
-print(a / Complex(4.0, 5.5))
-print(a / 3.5)
-print(a/ -2)
