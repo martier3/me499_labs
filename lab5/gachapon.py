@@ -3,6 +3,7 @@
 import numpy as np
 import statistics
 
+
 class GachaponSimulator:
 
     np.random.seed()
@@ -14,7 +15,6 @@ class GachaponSimulator:
         self.summary = {}
         self.one_sim = ()
 
-
     def _simulate_once(self):
         sim_results = []
         gachapon_list = list(range(0, self.prizes_n))
@@ -25,18 +25,15 @@ class GachaponSimulator:
             self.one_sim = len(sim_results)
             return self.one_sim
 
-
     def reset(self):
             self.results = []
             return self.results
-
 
     def simulate(self, num_games):
         for i in range(num_games):
             iteration = GachaponSimulator._simulate_once(self)
             self.results.append(iteration)
         return self.results
-
 
     def get_summary_stats(self):
         global mean
