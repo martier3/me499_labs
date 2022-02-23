@@ -38,9 +38,11 @@ def simple_minimizer(func, start=float(), end=float(), num=100):
     :return:
     """
     x_values = np.linspace(start, end, num)
-    min = func.min(x_values)
-    x_min = x_values[func[min]]
-    return x_min, min
+    y_values = func(x_values)
+    y_min = min(y_values)
+    y_min_index = np.where(y_values == y_min)
+    x_value_at_y_min = float(x_values[y_min_index])
+    return x_value_at_y_min , y_min
 
 
 def simulate_dice_rolls(num_rolls, iterations):
