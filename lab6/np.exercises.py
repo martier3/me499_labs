@@ -69,10 +69,11 @@ def simulate_dice_rolls(num_rolls, iterations):
     plt.savefig('dice_{}_rolls_{}.png'.format(num_rolls, iterations))
     return sum_roll_array
 
+
 def is_transformation_matrix(matrix=np.zeros((4,4))):
     """
     test matrix param to see if it is a valid transformation matrix
-    :param matrix: 4x4 numpy array
+    :param matrix: 4x4 numpy array (rotation matrix)
     :return: boolean
     """
     r = matrix[0:3, 0:3]
@@ -81,3 +82,22 @@ def is_transformation_matrix(matrix=np.zeros((4,4))):
     inverse = r_transpose @ r
     validity = bool((identity == inverse).all())
     return validity
+
+
+def nearest_neighbors(array=np.array([]), target_pt=np.array([]), dist=float()):
+    """
+    returns all the points in the array which are within Euclidean distance
+    dist of point
+    :param array: N x D Numpy array
+    :param target_pt: 1D array of length D
+    :param dist: threshold distance
+    :return: M x D Numpy array where M < N
+    """
+    i = 0
+    valid_rows = []
+    for row in array:
+        if abs(np.linalg.norm(row - target_pt)) < abs(dist):
+            valid_rows.append(i)
+        i += 1
+    row_indices = np.array(valid_rows)
+    return array[row_indices, :]
