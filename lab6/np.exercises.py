@@ -69,5 +69,15 @@ def simulate_dice_rolls(num_rolls, iterations):
     plt.savefig('dice_{}_rolls_{}.png'.format(num_rolls, iterations))
     return sum_roll_array
 
-
-simulate_dice_rolls(5, 2000)
+def is_transformation_matrix(matrix=np.zeros((4,4))):
+    """
+    test matrix param to see if it is a valid transformation matrix
+    :param matrix: 4x4 numpy array
+    :return: boolean
+    """
+    r = matrix[0:3, 0:3]
+    r_transpose = r.transpose()
+    identity = np.identity(3)
+    inverse = r_transpose @ r
+    validity = bool((identity == inverse).all())
+    return validity
