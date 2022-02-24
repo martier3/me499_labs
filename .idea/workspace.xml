@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="everything works great">
-      <change afterPath="$PROJECT_DIR$/lab6/lab6.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab6/np_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/np_exercises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +268,7 @@
       <workItem from="1644947481736" duration="3000" />
       <workItem from="1645033182579" duration="40202000" />
       <workItem from="1645140494681" duration="10779000" />
-      <workItem from="1645306456762" duration="63811000" />
+      <workItem from="1645306456762" duration="64019000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1644274243218</created>
@@ -466,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645679270314</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="everything works great">
+      <created>1645680110774</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1645680110774</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -37,11 +37,14 @@ def simple_minimizer(func, start=float(), end=float(), num=100):
     :param num: total number of evenly spaced points to search
     :return:
     """
-    x_values = np.linspace(start, end, num)
-    y_values = func(x_values)
-    y_min = min(y_values)
-    y_min_index = np.where(y_values == y_min)
-    x_value_at_y_min = float(x_values[y_min_index])
+    if start > end:
+        raise ValueError
+    else:
+        x_values = np.linspace(start, end, num)
+        y_values = func(x_values)
+        y_min = min(y_values)
+        y_min_index = np.where(y_values == y_min)
+        x_value_at_y_min = float(x_values[y_min_index])
     return x_value_at_y_min , y_min
 
 
