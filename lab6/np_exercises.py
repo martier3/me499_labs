@@ -5,7 +5,7 @@ from numpy import random
 import matplotlib.pyplot as plt
 
 
-def numpy_close(a=np.array([]), b=np.array([]), tol=np.exp(-8)):
+def numpy_close(a=np.array([]), b=np.array([]), tol=1E-8):
     """
     Returns True if the arrays have the same shape and the absolute
     difference of each corresponding pair of elements is less than tol
@@ -78,10 +78,9 @@ def is_transformation_matrix(matrix=np.zeros((4,4))):
     :return: boolean
     """
     r = matrix[0:3, 0:3]
-    r_transpose = np.round(r.transpose(), 4)
-    inverse = np.round(np.linalg.inv(r), 4)
-    validity = (r_transpose == inverse)
-    return bool(np.all(validity == True))
+    r_transpose = r.transpose()
+    inverse = np.linalg.inv(r)
+    return bool(np.all(r_transpose == inverse))
 
 
 def nearest_neighbors(array=np.array([]), target_pt=np.array([]), dist=float()):
