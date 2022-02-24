@@ -53,23 +53,17 @@ def simulate_dice_rolls(num_rolls, iterations):
     :return: 1-D NumPy array of length iterations, where each item is the
             sum of throwing a fair 6-sided die num_rolls times.
     """
-    histo_array = ([])
-    sum_roll_array = np.empty(iterations, dtype=int)
+
     sides_of_die = 6
-    for n in range(iterations):
-        die_array = np.arange(1, sides_of_die+1, 1)
-        all_rolls_array = np.empty(num_rolls, dtype=int)
-        for i in range(num_rolls):
-            roll = random.choice(die_array)
-            all_rolls_array[i] = roll
-        sum_roll_array[n] = all_rolls_array.sum()
-        histo_array = np.concatenate([histo_array, all_rolls_array])
-    d = np.diff(np.unique(histo_array)).min()
-    left_of_first_bin = histo_array.min() - float(d) / 2
-    right_of_last_bin = histo_array.max() + float(d) / 2
-    plt.hist(histo_array, np.arange(left_of_first_bin, right_of_last_bin + d, d))
+    die_number_set = list(range(1, sides_of_die+1))
+    random_rolls = np.random.randint(min(die_number_set), max(die_number_set)+1, iterations*num_rolls)
+    num_roll_sort = np.reshape(random_rolls, (iterations, num_rolls))
+    histo_array = np.sum(num_roll_sort, axis=1)
+
+    plt.hist(histo_array,20)
     plt.savefig('dice_{}_rolls_{}.png'.format(num_rolls, iterations))
-    return sum_roll_array
+
+    return histo_array
 
 
 def is_transformation_matrix(matrix=np.zeros((4,4))):
