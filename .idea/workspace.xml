@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="nearest_neighbors needs to have the loops resolved. Everything else works">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/np.exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/np.exercises.py" afterDir="false" />
+    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="everything works great">
+      <change afterPath="$PROJECT_DIR$/lab6/lab6.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <recent name="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.np.exercises">
+  <component name="RunManager" selected="Python.np_exercises">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="me499_labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="np.exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="np_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="me499_labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,7 +202,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab6/np.exercises.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab6\np_exercises.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,11 +240,11 @@
       <item itemvalue="Python.generate_plots" />
       <item itemvalue="Python.utils" />
       <item itemvalue="Python.complex" />
-      <item itemvalue="Python.np.exercises" />
+      <item itemvalue="Python.np_exercises" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.np.exercises" />
+        <item itemvalue="Python.np_exercises" />
         <item itemvalue="Python.complex" />
         <item itemvalue="Python.gachapon" />
         <item itemvalue="Python.generate_plots" />
@@ -269,7 +268,7 @@
       <workItem from="1644947481736" duration="3000" />
       <workItem from="1645033182579" duration="40202000" />
       <workItem from="1645140494681" duration="10779000" />
-      <workItem from="1645306456762" duration="63114000" />
+      <workItem from="1645306456762" duration="63811000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1644274243218</created>
@@ -460,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645662118069</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="everything works great">
+      <created>1645679270314</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1645679270314</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,18 +509,8 @@
     <MESSAGE value="problem five is done. Simple_minimizer is the only function that doesn't work" />
     <MESSAGE value="all functions work. I need to eliminate any loops used" />
     <MESSAGE value="nearest_neighbors needs to have the loops resolved. Everything else works" />
-    <option name="LAST_COMMIT_MESSAGE" value="nearest_neighbors needs to have the loops resolved. Everything else works" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lab6/np.exercises.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="everything works great" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything works great" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/me499_labs$utils.coverage" NAME="utils Coverage Results" MODIFIED="1644469346137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
