@@ -18,8 +18,7 @@ def numpy_close(a=np.array([]), b=np.array([]), tol=1E-8):
     shape_a = np.shape(a)
     shape_b = np.shape(b)
     if shape_a == shape_b:
-        c = abs(a - b)
-        if c.all() <= tol:
+        if np.allclose(a, b, atol=tol):
             return True
         else:
             return False
@@ -47,7 +46,7 @@ def simple_minimizer(func, start=float(), end=float(), num=100):
         y_min = min(y_values)
         y_min_index = np.where(y_values == y_min)
         x_value_at_y_min = float(x_values[y_min_index])
-    return x_value_at_y_min , y_min
+    return list(x_value_at_y_min , y_min)
 
 
 def simulate_dice_rolls(num_rolls, iterations):
@@ -80,7 +79,7 @@ def is_transformation_matrix(matrix=np.zeros((4,4))):
     r = matrix[0:3, 0:3]
     r_transpose = r.transpose()
     inverse = np.linalg.inv(r)
-    return bool(np.all(r_transpose == inverse))
+    return bool(np.allclose(r_transpose, inverse))
 
 
 def nearest_neighbors(array=np.array([]), target_pt=np.array([]), dist=float()):
