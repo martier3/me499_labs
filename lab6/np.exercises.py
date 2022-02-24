@@ -89,11 +89,9 @@ def nearest_neighbors(array=np.array([]), target_pt=np.array([]), dist=float()):
     :param dist: threshold distance
     :return: M x D Numpy array where M < N
     """
-    i = 0
-    valid_rows = []
-    for row in array:
-        if abs(np.linalg.norm(row - target_pt)) < abs(dist):
-            valid_rows.append(i)
-        i += 1
-    row_indices = np.array(valid_rows)
-    return array[row_indices, :]
+    distance = np.linalg.norm(array-target_pt, axis=1)
+    valid_indexes = list(*np.where(distance < dist))
+    valid_array = array[valid_indexes, :]
+    sorted_valid_distance_indices = np.argsort(np.linalg.norm(valid_array-target_pt, axis=1))
+    sort_valid_array = valid_array[sorted_valid_distance_indices, :]
+    return sort_valid_array
