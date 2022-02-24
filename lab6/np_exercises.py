@@ -18,7 +18,7 @@ def numpy_close(a=np.array([]), b=np.array([]), tol=1E-8):
     shape_a = np.shape(a)
     shape_b = np.shape(b)
     if shape_a == shape_b:
-        if np.allclose(a, b, atol=tol):
+        if np.allclose(a, b, rtol=tol, atol=tol):
             return True
         else:
             return False
@@ -46,7 +46,8 @@ def simple_minimizer(func, start=float(), end=float(), num=100):
         y_min = min(y_values)
         y_min_index = np.where(y_values == y_min)
         x_value_at_y_min = float(x_values[y_min_index])
-    return list[x_value_at_y_min , y_min]
+    return [x_value_at_y_min , y_min]
+
 
 def simulate_dice_rolls(num_rolls, iterations):
     """
