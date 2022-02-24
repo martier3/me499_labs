@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="everything works great">
+    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="added value error to minimizer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab6/np_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/np_exercises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,7 +269,7 @@
       <workItem from="1644947481736" duration="3000" />
       <workItem from="1645033182579" duration="40202000" />
       <workItem from="1645140494681" duration="10779000" />
-      <workItem from="1645306456762" duration="64019000" />
+      <workItem from="1645306456762" duration="65928000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1644274243218</created>
@@ -473,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1645680110774</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="added value error to minimizer">
+      <created>1645680406818</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1645680406818</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added value error to minimizer">
+      <created>1645680473568</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1645680473568</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,7 +507,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="deleted main" />
     <MESSAGE value="started problem 1 in lab4 on utils" />
     <MESSAGE value="added plot functino to generate_plots.py" />
     <MESSAGE value="Problem 1 makes a successful plot" />
@@ -517,11 +531,12 @@
     <MESSAGE value="all functions work. I need to eliminate any loops used" />
     <MESSAGE value="nearest_neighbors needs to have the loops resolved. Everything else works" />
     <MESSAGE value="everything works great" />
-    <option name="LAST_COMMIT_MESSAGE" value="everything works great" />
+    <MESSAGE value="added value error to minimizer" />
+    <option name="LAST_COMMIT_MESSAGE" value="added value error to minimizer" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/me499_labs$utils.coverage" NAME="utils Coverage Results" MODIFIED="1644469346137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
-    <SUITE FILE_PATH="coverage/me499_labs$np_exercises.coverage" NAME="np.exercises Coverage Results" MODIFIED="1645679209720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab6" />
+    <SUITE FILE_PATH="coverage/me499_labs$np_exercises.coverage" NAME="np_exercises Coverage Results" MODIFIED="1645682040696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab6" />
     <SUITE FILE_PATH="coverage/me499_labs$complex.coverage" NAME="complex Coverage Results" MODIFIED="1645164299810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
     <SUITE FILE_PATH="coverage/me499_labs$generate_plots.coverage" NAME="generate_plots Coverage Results" MODIFIED="1645049342513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
     <SUITE FILE_PATH="coverage/me499_labs$gachapon.coverage" NAME="gachapon Coverage Results" MODIFIED="1645128320546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />

@@ -5,7 +5,7 @@ from numpy import random
 import matplotlib.pyplot as plt
 
 
-def numpy_close(a, b, tol=np.exp(-8)):
+def numpy_close(a=np.array([]), b=np.array([]), tol=np.exp(-8)):
     """
     Returns True if the arrays have the same shape and the absolute
     difference of each corresponding pair of elements is less than tol
@@ -15,14 +15,16 @@ def numpy_close(a, b, tol=np.exp(-8)):
     :return: if arrays are equal shape and abs(a-b) for each element
             is less than tol = True. else False
     """
-    if a.shape == b.shape:
-        print(a)
-        print(b)
+    shape_a = np.shape(a)
+    shape_b = np.shape(b)
+    if shape_a == shape_b:
         c = abs(a - b)
         if c.all() <= tol:
-            return True, print(True)
+            return True
+        else:
+            return False
     else:
-        return False, print(False)
+        return False
 
 
 def simple_minimizer(func, start=float(), end=float(), num=100):
@@ -40,7 +42,7 @@ def simple_minimizer(func, start=float(), end=float(), num=100):
     if start > end:
         raise ValueError
     else:
-        x_values = np.linspace(start, end, num)
+        x_values = np.linspace(start, end, num, endpoint=True)
         y_values = func(x_values)
         y_min = min(y_values)
         y_min_index = np.where(y_values == y_min)
