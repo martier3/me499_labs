@@ -78,11 +78,10 @@ def is_transformation_matrix(matrix=np.zeros((4,4))):
     :return: boolean
     """
     r = matrix[0:3, 0:3]
-    r_transpose = r.transpose()
-    identity = np.identity(3)
-    inverse = r_transpose @ r
-    validity = bool((identity == inverse).all())
-    return validity
+    r_transpose = np.round(r.transpose(), 4)
+    inverse = np.round(np.linalg.inv(r), 4)
+    validity = (r_transpose == inverse)
+    return bool(np.all(validity == True))
 
 
 def nearest_neighbors(array=np.array([]), target_pt=np.array([]), dist=float()):
