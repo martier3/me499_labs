@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="trying to fix things">
+      <change afterPath="$PROJECT_DIR$/lab7/eggholder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/inertia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab7/lab7.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/lab6.zip" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/lab6.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab6/np_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/np_exercises.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +51,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowPython Console.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab7" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab7" />
       <recent name="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -198,6 +200,9 @@
       <module name="me499_labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab6" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -270,7 +275,9 @@
       <workItem from="1644947481736" duration="3000" />
       <workItem from="1645033182579" duration="40202000" />
       <workItem from="1645140494681" duration="10779000" />
-      <workItem from="1645306456762" duration="73165000" />
+      <workItem from="1645306456762" duration="73574000" />
+      <workItem from="1646205143455" duration="44000" />
+      <workItem from="1646239216253" duration="1694000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1644274243218</created>
@@ -538,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645689009853</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="trying to fix things">
+      <created>1645689875452</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1645689875452</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
