@@ -1,0 +1,260 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a1b55352-0937-405e-8a0f-5bf2a3d5d36c\" name=\"Changes\" comment=\"trying to fix things\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lab6/lab6.zip\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lab6/lab6.zip\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/lab6/np_exercises.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/lab6/np_exercises.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/lab4/utils.py\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"24nlLHBV9gIQkXIVs6mJWT7sORV\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"ASKED_ADD_EXTERNAL_FILES\" value=\"true\" />\r\n    <property name=\"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"ToolWindowPython Console.ShowToolbar\" value=\"false\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/lab5\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\ericm\\iCloudDrive\\College\\OSU\\2022\\Winter\\ME499 Python\\me499_labs\\lab5\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\ericm\\iCloudDrive\\College\\OSU\\2022\\Winter\\ME499 Python\\me499_labs\\lab6\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.np_exercises\">\r\n    <configuration default=\"true\" type=\"PythonConfigurationType\" factoryName=\"Python\">\r\n      <module name=\"me499_labs\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"true\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"complex\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"me499_labs\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/lab5\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/lab5/complex.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"counter\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"me499_labs\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/lab4\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/lab4/counter.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"gachapon\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"me499_labs\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/lab5\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/lab5/gachapon.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"generate_plots\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"me499_labs\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/lab4\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/lab4/generate_plots.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"msd\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"me499_labs\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/lab4\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/lab4/msd.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"np_exercises\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"me499_labs\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/lab6\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"C:\\Users\\ericm\\iCloudDrive\\College\\OSU\\2022\\Winter\\ME499 Python\\me499_labs\\lab6\\np_exercises.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"utils\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"me499_labs\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/lab4\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/lab4/utils.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.counter\" />\r\n      <item itemvalue=\"Python.msd\" />\r\n      <item itemvalue=\"Python.gachapon\" />\r\n      <item itemvalue=\"Python.generate_plots\" />\r\n      <item itemvalue=\"Python.utils\" />\r\n      <item itemvalue=\"Python.complex\" />\r\n      <item itemvalue=\"Python.np_exercises\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.np_exercises\" />\r\n        <item itemvalue=\"Python.complex\" />\r\n        <item itemvalue=\"Python.gachapon\" />\r\n        <item itemvalue=\"Python.generate_plots\" />\r\n        <item itemvalue=\"Python.utils\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a1b55352-0937-405e-8a0f-5bf2a3d5d36c\" name=\"Changes\" comment=\"\" />\r\n      <created>1644274189083</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1644274189083</updated>\r\n      <workItem from=\"1644274190312\" duration=\"15406000\" />\r\n      <workItem from=\"1644434104399\" duration=\"9337000\" />\r\n      <workItem from=\"1644449072926\" duration=\"18165000\" />\r\n      <workItem from=\"1644660394141\" duration=\"42000\" />\r\n      <workItem from=\"1644892373071\" duration=\"169000\" />\r\n      <workItem from=\"1644947481736\" duration=\"3000\" />\r\n      <workItem from=\"1645033182579\" duration=\"40202000\" />\r\n      <workItem from=\"1645140494681\" duration=\"10779000\" />\r\n      <workItem from=\"1645306456762\" duration=\"73165000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"deleted main\">\r\n      <created>1644274243218</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644274243218</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"started problem 1 in lab4 on utils\">\r\n      <created>1644274987828</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644274987828</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"added plot functino to generate_plots.py\">\r\n      <created>1644368513829</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644368513829</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Problem 1 makes a successful plot\">\r\n      <created>1644390475282</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644390475282</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"added a png save file to generate_plots.py and the PNG for problem 1 is saved in the directory\">\r\n      <created>1644390818934</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644390818934</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"working on the historgram for problem 2\">\r\n      <created>1644434055291</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644434055291</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"the simulate_gachopan function works\">\r\n      <created>1644439328630</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644439328630</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"histogram works but problem 2 still needs to iterate itself 1000 then graph. Right now it only graphs the first iteration\">\r\n      <created>1644446370038</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644446370038</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"generate_plots now makes a list of around 50k numbers. They are all random but the histogram plot is having trouble\">\r\n      <created>1644457672132</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644457672132</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"problem 1 and problem 2 are working. the y-axis on problem 2 needs to be renamed\">\r\n      <created>1644467968530</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644467968530</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"everything works\">\r\n      <created>1644474887606</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644474887606</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"everything works, PEP8 issues fixed\">\r\n      <created>1644475283642</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644475283642</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"everything works, PEP8 issues fixed\">\r\n      <created>1644660421615</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1644660421615</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"added lab 5 and py files\">\r\n      <created>1645036201984</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645036201985</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"added lab 5 and py files\">\r\n      <created>1645036219672</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645036219672</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"gachapon is working\">\r\n      <created>1645079728607</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645079728607</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"trying to figure out the command prompt stuff\">\r\n      <created>1645084745450</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645084745450</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"problem 2 is done\">\r\n      <created>1645129779999</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645129779999</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"everthing works in complex.py except the division piece. I'm not sure how to make that one work yet. It outputs a number but it's wrong\">\r\n      <created>1645148659580</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645148659580</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"everything works. divisions kinda works\">\r\n      <created>1645164407590</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645164407590</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"everything works. divisions kinda works\">\r\n      <created>1645306173042</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645306173042</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"problem 1 in lab six is done\">\r\n      <created>1645483579417</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645483579417</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"problem three is done with the graph\">\r\n      <created>1645572806152</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645572806152</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"problem four is done\">\r\n      <created>1645580707050</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645580707050</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"problem five is done. Simple_minimizer is the only function that doesn't work\">\r\n      <created>1645653070040</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645653070040</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"all functions work. I need to eliminate any loops used\">\r\n      <created>1645655274068</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645655274068</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"nearest_neighbors needs to have the loops resolved. Everything else works\">\r\n      <created>1645662118069</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645662118069</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"everything works great\">\r\n      <created>1645679270314</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645679270314</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"everything works great\">\r\n      <created>1645680110774</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645680110774</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"added value error to minimizer\">\r\n      <created>1645680406818</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645680406818</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"added value error to minimizer\">\r\n      <created>1645680473568</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645680473568</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"trying to fix things\">\r\n      <created>1645682325977</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645682325977</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"trying to fix things\">\r\n      <created>1645684690993</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645684690993</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00034\" summary=\"trying to fix things\">\r\n      <created>1645686014479</created>\r\n      <option name=\"number\" value=\"00034\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645686014479</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00035\" summary=\"trying to fix things\">\r\n      <created>1645686042662</created>\r\n      <option name=\"number\" value=\"00035\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645686042662</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00036\" summary=\"trying to fix things\">\r\n      <created>1645687808844</created>\r\n      <option name=\"number\" value=\"00036\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645687808844</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00037\" summary=\"trying to fix things\">\r\n      <created>1645687935651</created>\r\n      <option name=\"number\" value=\"00037\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00037\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645687935651</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00038\" summary=\"trying to fix things\">\r\n      <created>1645689009853</created>\r\n      <option name=\"number\" value=\"00038\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00038\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1645689009853</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"39\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"added plot functino to generate_plots.py\" />\r\n    <MESSAGE value=\"Problem 1 makes a successful plot\" />\r\n    <MESSAGE value=\"added a png save file to generate_plots.py and the PNG for problem 1 is saved in the directory\" />\r\n    <MESSAGE value=\"working on the historgram for problem 2\" />\r\n    <MESSAGE value=\"the simulate_gachopan function works\" />\r\n    <MESSAGE value=\"histogram works but problem 2 still needs to iterate itself 1000 then graph. Right now it only graphs the first iteration\" />\r\n    <MESSAGE value=\"generate_plots now makes a list of around 50k numbers. They are all random but the histogram plot is having trouble\" />\r\n    <MESSAGE value=\"problem 1 and problem 2 are working. the y-axis on problem 2 needs to be renamed\" />\r\n    <MESSAGE value=\"everything works\" />\r\n    <MESSAGE value=\"everything works, PEP8 issues fixed\" />\r\n    <MESSAGE value=\"added lab 5 and py files\" />\r\n    <MESSAGE value=\"gachapon is working\" />\r\n    <MESSAGE value=\"trying to figure out the command prompt stuff\" />\r\n    <MESSAGE value=\"problem 2 is done\" />\r\n    <MESSAGE value=\"everthing works in complex.py except the division piece. I'm not sure how to make that one work yet. It outputs a number but it's wrong\" />\r\n    <MESSAGE value=\"everything works. divisions kinda works\" />\r\n    <MESSAGE value=\"problem 1 in lab six is done\" />\r\n    <MESSAGE value=\"problem three is done with the graph\" />\r\n    <MESSAGE value=\"problem four is done\" />\r\n    <MESSAGE value=\"problem five is done. Simple_minimizer is the only function that doesn't work\" />\r\n    <MESSAGE value=\"all functions work. I need to eliminate any loops used\" />\r\n    <MESSAGE value=\"nearest_neighbors needs to have the loops resolved. Everything else works\" />\r\n    <MESSAGE value=\"everything works great\" />\r\n    <MESSAGE value=\"added value error to minimizer\" />\r\n    <MESSAGE value=\"trying to fix things\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"trying to fix things\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/me499_labs$utils.coverage\" NAME=\"utils Coverage Results\" MODIFIED=\"1644469346137\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/lab4\" />\r\n    <SUITE FILE_PATH=\"coverage/me499_labs$np_exercises.coverage\" NAME=\"np_exercises Coverage Results\" MODIFIED=\"1645688829060\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/lab6\" />\r\n    <SUITE FILE_PATH=\"coverage/me499_labs$complex.coverage\" NAME=\"complex Coverage Results\" MODIFIED=\"1645164299810\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/lab5\" />\r\n    <SUITE FILE_PATH=\"coverage/me499_labs$generate_plots.coverage\" NAME=\"generate_plots Coverage Results\" MODIFIED=\"1645049342513\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/lab4\" />\r\n    <SUITE FILE_PATH=\"coverage/me499_labs$gachapon.coverage\" NAME=\"gachapon Coverage Results\" MODIFIED=\"1645128320546\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/lab5\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c9be511ff40d92eb7d8744c0db948d984e520774)
++++ b/.idea/workspace.xml	(date 1646366656600)
+@@ -1,10 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="trying to fix things">
++    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="wokring on lab7">
++      <change afterPath="$PROJECT_DIR$/lab7/lab7.pdf" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lab6/lab6.zip" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/lab6.zip" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/lab6/np_exercises.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab6/np_exercises.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,18 +49,19 @@
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="ToolWindowPython Console.ShowToolbar" value="false" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab5" />
+-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab7" />
++    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab7" />
+       <recent name="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab5" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab6" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.np_exercises">
++  <component name="RunManager" selected="Python.inertia">
+     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+       <module name="me499_labs" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -172,7 +172,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="msd" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
++    <configuration name="inertia" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="me499_labs" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -180,12 +180,12 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab7" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/msd.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab7/inertia.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -194,17 +194,20 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="np_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="msd" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+       <module name="me499_labs" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab6" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab6\np_exercises.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/msd.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -213,7 +216,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="np_exercises" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="me499_labs" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -221,12 +224,12 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab4" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab6" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab4/utils.py" />
++      <option name="SCRIPT_NAME" value="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab6\np_exercises.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -240,17 +243,17 @@
+       <item itemvalue="Python.msd" />
+       <item itemvalue="Python.gachapon" />
+       <item itemvalue="Python.generate_plots" />
+-      <item itemvalue="Python.utils" />
+       <item itemvalue="Python.complex" />
+       <item itemvalue="Python.np_exercises" />
++      <item itemvalue="Python.inertia" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Python.inertia" />
+         <item itemvalue="Python.np_exercises" />
+         <item itemvalue="Python.complex" />
+         <item itemvalue="Python.gachapon" />
+         <item itemvalue="Python.generate_plots" />
+-        <item itemvalue="Python.utils" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -270,7 +273,12 @@
+       <workItem from="1644947481736" duration="3000" />
+       <workItem from="1645033182579" duration="40202000" />
+       <workItem from="1645140494681" duration="10779000" />
+-      <workItem from="1645306456762" duration="73165000" />
++      <workItem from="1645306456762" duration="73574000" />
++      <workItem from="1646205143455" duration="44000" />
++      <workItem from="1646239216253" duration="1747000" />
++      <workItem from="1646254025892" duration="4154000" />
++      <workItem from="1646330037539" duration="1154000" />
++      <workItem from="1646338414986" duration="13137000" />
+     </task>
+     <task id="LOCAL-00001" summary="deleted main">
+       <created>1644274243218</created>
+@@ -538,7 +546,56 @@
+       <option name="project" value="LOCAL" />
+       <updated>1645689009853</updated>
+     </task>
+-    <option name="localTasksCounter" value="39" />
++    <task id="LOCAL-00039" summary="trying to fix things">
++      <created>1645689875452</created>
++      <option name="number" value="00039" />
++      <option name="presentableId" value="LOCAL-00039" />
++      <option name="project" value="LOCAL" />
++      <updated>1645689875452</updated>
++    </task>
++    <task id="LOCAL-00040" summary="getting started on lab7">
++      <created>1646242200894</created>
++      <option name="number" value="00040" />
++      <option name="presentableId" value="LOCAL-00040" />
++      <option name="project" value="LOCAL" />
++      <updated>1646242200894</updated>
++    </task>
++    <task id="LOCAL-00041" summary="working on the inertia array in part 1">
++      <created>1646258115812</created>
++      <option name="number" value="00041" />
++      <option name="presentableId" value="LOCAL-00041" />
++      <option name="project" value="LOCAL" />
++      <updated>1646258115812</updated>
++    </task>
++    <task id="LOCAL-00042" summary="wokring on lab7">
++      <created>1646364152191</created>
++      <option name="number" value="00042" />
++      <option name="presentableId" value="LOCAL-00042" />
++      <option name="project" value="LOCAL" />
++      <updated>1646364152191</updated>
++    </task>
++    <task id="LOCAL-00043" summary="wokring on lab7">
++      <created>1646364173057</created>
++      <option name="number" value="00043" />
++      <option name="presentableId" value="LOCAL-00043" />
++      <option name="project" value="LOCAL" />
++      <updated>1646364173057</updated>
++    </task>
++    <task id="LOCAL-00044" summary="wokring on lab7">
++      <created>1646364189274</created>
++      <option name="number" value="00044" />
++      <option name="presentableId" value="LOCAL-00044" />
++      <option name="project" value="LOCAL" />
++      <updated>1646364189274</updated>
++    </task>
++    <task id="LOCAL-00045" summary="wokring on lab7">
++      <created>1646366341492</created>
++      <option name="number" value="00045" />
++      <option name="presentableId" value="LOCAL-00045" />
++      <option name="project" value="LOCAL" />
++      <updated>1646366341492</updated>
++    </task>
++    <option name="localTasksCounter" value="46" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -549,7 +606,19 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="origin/main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+@@ -557,9 +626,6 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+-    <MESSAGE value="added plot functino to generate_plots.py" />
+-    <MESSAGE value="Problem 1 makes a successful plot" />
+-    <MESSAGE value="added a png save file to generate_plots.py and the PNG for problem 1 is saved in the directory" />
+     <MESSAGE value="working on the historgram for problem 2" />
+     <MESSAGE value="the simulate_gachopan function works" />
+     <MESSAGE value="histogram works but problem 2 still needs to iterate itself 1000 then graph. Right now it only graphs the first iteration" />
+@@ -582,12 +648,16 @@
+     <MESSAGE value="everything works great" />
+     <MESSAGE value="added value error to minimizer" />
+     <MESSAGE value="trying to fix things" />
+-    <option name="LAST_COMMIT_MESSAGE" value="trying to fix things" />
++    <MESSAGE value="getting started on lab7" />
++    <MESSAGE value="working on the inertia array in part 1" />
++    <MESSAGE value="wokring on lab7" />
++    <option name="LAST_COMMIT_MESSAGE" value="wokring on lab7" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/me499_labs$utils.coverage" NAME="utils Coverage Results" MODIFIED="1644469346137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+-    <SUITE FILE_PATH="coverage/me499_labs$np_exercises.coverage" NAME="np_exercises Coverage Results" MODIFIED="1645688829060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab6" />
++    <SUITE FILE_PATH="coverage/me499_labs$np_exercises.coverage" NAME="np_exercises Coverage Results" MODIFIED="1646258039755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab6" />
+     <SUITE FILE_PATH="coverage/me499_labs$complex.coverage" NAME="complex Coverage Results" MODIFIED="1645164299810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
++    <SUITE FILE_PATH="coverage/me499_labs$inertia.coverage" NAME="inertia Coverage Results" MODIFIED="1646364038854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
+     <SUITE FILE_PATH="coverage/me499_labs$generate_plots.coverage" NAME="generate_plots Coverage Results" MODIFIED="1645049342513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
+     <SUITE FILE_PATH="coverage/me499_labs$gachapon.coverage" NAME="gachapon Coverage Results" MODIFIED="1645128320546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
+   </component>
