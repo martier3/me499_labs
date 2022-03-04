@@ -18,8 +18,9 @@ def eggholder(x, y):
     else:
         return 2000 if (abs(x) > 512 or abs(y) > 512) else result
 
-def minimize_eggholder(guess, max_calls=100):
-    eggholder_minimized = optimize.fmin(func=eggholder, x0=guess, maxfun=max_calls)
+def minimize_eggholder(guess=[0,0], max_calls=100):
+    eggholder_minimized = optimize.fmin(func=eggholder(guess), x0=guess, maxfun=max_calls)
     return eggholder_minimized
 
 
+print(minimize_eggholder([5, 5], 100))
