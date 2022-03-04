@@ -57,3 +57,5 @@ def test_inertia_matrices_output():
                         [0, 0, (2 / 3) * m * (r ** 2)]])
     np.set_printoptions(precision=3, suppress=True)
     return print('Polar:\n', polar, '\nGaussian:\n', gaussian, '\nExpected:\n', expected)
+
+# test fix
