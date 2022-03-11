@@ -15,7 +15,7 @@ class SliderDisplay(QWidget):
 
     def value(self):
         """Return the current value of the slider"""
-        return 0
+        return (self.slider.value() / self.ticks) * self.range + self.low
 
 
 if __name__ == '__main__':
