@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="pyqt installed">
+    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="gui.py is done. Puts out integer widget">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab8/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab8/slider.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/slider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <recent name="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gui">
+  <component name="RunManager" selected="Python.slider">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="me499_labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,8 +154,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gui" />
         <item itemvalue="Python.slider" />
+        <item itemvalue="Python.gui" />
         <item itemvalue="Python.inertia" />
       </list>
     </recent_temporary>
@@ -186,7 +185,7 @@
       <workItem from="1646698294132" duration="397000" />
       <workItem from="1646767244283" duration="12447000" />
       <workItem from="1646897681889" duration="4388000" />
-      <workItem from="1646969194235" duration="7350000" />
+      <workItem from="1646969194235" duration="9725000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1644274243218</created>
@@ -496,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646698260484</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="gui.py is done. Puts out integer widget">
+      <created>1647026826532</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1647026826532</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="the simulate_gachopan function works" />
     <MESSAGE value="histogram works but problem 2 still needs to iterate itself 1000 then graph. Right now it only graphs the first iteration" />
     <MESSAGE value="generate_plots now makes a list of around 50k numbers. They are all random but the histogram plot is having trouble" />
     <MESSAGE value="problem 1 and problem 2 are working. the y-axis on problem 2 needs to be renamed" />
@@ -552,7 +557,8 @@
     <MESSAGE value="trying to fix git connectivity issues" />
     <MESSAGE value="added lab 8 files" />
     <MESSAGE value="pyqt installed" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyqt installed" />
+    <MESSAGE value="gui.py is done. Puts out integer widget" />
+    <option name="LAST_COMMIT_MESSAGE" value="gui.py is done. Puts out integer widget" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/me499_labs$utils.coverage" NAME="utils Coverage Results" MODIFIED="1644469346137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
@@ -561,7 +567,8 @@
     <SUITE FILE_PATH="coverage/me499_labs$inertia.coverage" NAME="inertia Coverage Results" MODIFIED="1646364038854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
     <SUITE FILE_PATH="coverage/labs$inertia.coverage" NAME="inertia Coverage Results" MODIFIED="1646421727922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
     <SUITE FILE_PATH="coverage/me499_labs$eggholder.coverage" NAME="eggholder Coverage Results" MODIFIED="1646367714380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
-    <SUITE FILE_PATH="coverage/labs$gui.coverage" NAME="gui Coverage Results" MODIFIED="1647026755255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
+    <SUITE FILE_PATH="coverage/labs$gui.coverage" NAME="gui Coverage Results" MODIFIED="1647026796541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
+    <SUITE FILE_PATH="coverage/labs$slider.coverage" NAME="slider Coverage Results" MODIFIED="1647029685047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
     <SUITE FILE_PATH="coverage/me499_labs$generate_plots.coverage" NAME="generate_plots Coverage Results" MODIFIED="1645049342513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
     <SUITE FILE_PATH="coverage/me499_labs$gachapon.coverage" NAME="gachapon Coverage Results" MODIFIED="1645128320546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
   </component>
