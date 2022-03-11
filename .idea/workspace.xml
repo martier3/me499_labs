@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="gui.py is done. Puts out integer widget">
+    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="slider.py and gui.py are done and make the sliders asked for in both">
+      <change afterPath="$PROJECT_DIR$/lab8/sine_graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab8/slider.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/slider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/random-graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/random-graph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
       <recent name="C:\Users\ericm\iCloudDrive\College\OSU\2022\Winter\ME499 Python\me499_labs\lab6" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.slider">
+  <component name="RunManager" selected="Python.random-graph">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="me499_labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +129,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="random-graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="me499_labs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab8/random-graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="slider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="me499_labs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,9 +171,11 @@
       <item itemvalue="Python.gui" />
       <item itemvalue="Python.inertia" />
       <item itemvalue="Python.slider" />
+      <item itemvalue="Python.random-graph" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random-graph" />
         <item itemvalue="Python.slider" />
         <item itemvalue="Python.gui" />
         <item itemvalue="Python.inertia" />
@@ -185,7 +207,7 @@
       <workItem from="1646698294132" duration="397000" />
       <workItem from="1646767244283" duration="12447000" />
       <workItem from="1646897681889" duration="4388000" />
-      <workItem from="1646969194235" duration="9725000" />
+      <workItem from="1646969194235" duration="11996000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1644274243218</created>
@@ -502,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647026826532</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="slider.py and gui.py are done and make the sliders asked for in both">
+      <created>1647029950767</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1647029950767</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +562,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="histogram works but problem 2 still needs to iterate itself 1000 then graph. Right now it only graphs the first iteration" />
     <MESSAGE value="generate_plots now makes a list of around 50k numbers. They are all random but the histogram plot is having trouble" />
     <MESSAGE value="problem 1 and problem 2 are working. the y-axis on problem 2 needs to be renamed" />
     <MESSAGE value="everything works" />
@@ -558,17 +586,19 @@
     <MESSAGE value="added lab 8 files" />
     <MESSAGE value="pyqt installed" />
     <MESSAGE value="gui.py is done. Puts out integer widget" />
-    <option name="LAST_COMMIT_MESSAGE" value="gui.py is done. Puts out integer widget" />
+    <MESSAGE value="slider.py and gui.py are done and make the sliders asked for in both" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider.py and gui.py are done and make the sliders asked for in both" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/labs$random_graph.coverage" NAME="random-graph Coverage Results" MODIFIED="1647030522640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
     <SUITE FILE_PATH="coverage/me499_labs$utils.coverage" NAME="utils Coverage Results" MODIFIED="1644469346137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
     <SUITE FILE_PATH="coverage/me499_labs$np_exercises.coverage" NAME="np_exercises Coverage Results" MODIFIED="1646367042407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab6" />
     <SUITE FILE_PATH="coverage/me499_labs$complex.coverage" NAME="complex Coverage Results" MODIFIED="1645164299810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
     <SUITE FILE_PATH="coverage/me499_labs$inertia.coverage" NAME="inertia Coverage Results" MODIFIED="1646364038854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
     <SUITE FILE_PATH="coverage/labs$inertia.coverage" NAME="inertia Coverage Results" MODIFIED="1646421727922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
     <SUITE FILE_PATH="coverage/me499_labs$eggholder.coverage" NAME="eggholder Coverage Results" MODIFIED="1646367714380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
-    <SUITE FILE_PATH="coverage/labs$gui.coverage" NAME="gui Coverage Results" MODIFIED="1647026796541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
-    <SUITE FILE_PATH="coverage/labs$slider.coverage" NAME="slider Coverage Results" MODIFIED="1647029685047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
+    <SUITE FILE_PATH="coverage/labs$gui.coverage" NAME="gui Coverage Results" MODIFIED="1647029967165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
+    <SUITE FILE_PATH="coverage/labs$slider.coverage" NAME="slider Coverage Results" MODIFIED="1647030027655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
     <SUITE FILE_PATH="coverage/me499_labs$generate_plots.coverage" NAME="generate_plots Coverage Results" MODIFIED="1645049342513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab4" />
     <SUITE FILE_PATH="coverage/me499_labs$gachapon.coverage" NAME="gachapon Coverage Results" MODIFIED="1645128320546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
   </component>
