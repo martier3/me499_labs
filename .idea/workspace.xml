@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="created sine_graph file">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_3_2022_8_07_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_3_2022_8_07_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab8/sine_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/sine_graph.py" afterDir="false" />
-    </list>
+    <list default="true" id="a1b55352-0937-405e-8a0f-5bf2a3d5d36c" name="Changes" comment="everything is working so far. Sine graph is done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +224,7 @@
       <workItem from="1646698294132" duration="397000" />
       <workItem from="1646767244283" duration="12447000" />
       <workItem from="1646897681889" duration="4388000" />
-      <workItem from="1646969194235" duration="17895000" />
+      <workItem from="1646969194235" duration="18714000" />
     </task>
     <task id="LOCAL-00001" summary="deleted main">
       <created>1644274243218</created>
@@ -560,7 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647031991444</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="everything is working so far. Sine graph is done">
+      <created>1647065352213</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1647065352213</updated>
+    </task>
+    <task id="LOCAL-00049" summary="everything is working so far. Sine graph is done">
+      <created>1647065376649</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1647065376649</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +600,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="problem 1 and problem 2 are working. the y-axis on problem 2 needs to be renamed" />
     <MESSAGE value="everything works" />
     <MESSAGE value="everything works, PEP8 issues fixed" />
     <MESSAGE value="added lab 5 and py files" />
@@ -616,7 +624,8 @@
     <MESSAGE value="gui.py is done. Puts out integer widget" />
     <MESSAGE value="slider.py and gui.py are done and make the sliders asked for in both" />
     <MESSAGE value="created sine_graph file" />
-    <option name="LAST_COMMIT_MESSAGE" value="created sine_graph file" />
+    <MESSAGE value="everything is working so far. Sine graph is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything is working so far. Sine graph is done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/labs$random_graph.coverage" NAME="random-graph Coverage Results" MODIFIED="1647030522640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
@@ -625,7 +634,7 @@
     <SUITE FILE_PATH="coverage/me499_labs$complex.coverage" NAME="complex Coverage Results" MODIFIED="1645164299810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab5" />
     <SUITE FILE_PATH="coverage/me499_labs$inertia.coverage" NAME="inertia Coverage Results" MODIFIED="1646364038854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
     <SUITE FILE_PATH="coverage/labs$inertia.coverage" NAME="inertia Coverage Results" MODIFIED="1646421727922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
-    <SUITE FILE_PATH="coverage/labs$sine_graph.coverage" NAME="sine_graph Coverage Results" MODIFIED="1647065262021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
+    <SUITE FILE_PATH="coverage/labs$sine_graph.coverage" NAME="sine_graph Coverage Results" MODIFIED="1647065493718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
     <SUITE FILE_PATH="coverage/me499_labs$eggholder.coverage" NAME="eggholder Coverage Results" MODIFIED="1646367714380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab7" />
     <SUITE FILE_PATH="coverage/labs$gui.coverage" NAME="gui Coverage Results" MODIFIED="1647029967165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
     <SUITE FILE_PATH="coverage/labs$slider.coverage" NAME="slider Coverage Results" MODIFIED="1647061272773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lab8" />
